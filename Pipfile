@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+aiogram = "*"
+sqlalchemy = "*"
+starlette = "*"
+pydantic = "*"
+python-dotenv = "*"
+fastapi-mail = "*"
+psycopg2-binary = "*"
+alembic = "*"
+sqlalchemy-mixins = "*"
+sqlalchemy-utils = "*"
+python-multipart = "*"
+uvicorn = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

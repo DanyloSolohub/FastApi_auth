@@ -1,0 +1,1 @@
+from fastapi import FastAPIimport users.auth_.viewsapp = FastAPI()app.include_router(users.auth_.views.auth_router)
